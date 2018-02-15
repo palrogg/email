@@ -16,4 +16,8 @@ Plus simple: certains hébergeurs mail permettent de télécharger l’archive a
 
 ### 2. Sélectionner les données
 
-Le script [1_mbox_reader.ipynb] lit les données du fichier 
+Le script [1_mbox_reader.ipynb](1_mbox_reader.ipynb) lit les données d’un fichier mbox, sélectionne les données par date et par colonne et les sauvegarde sous la forme de deux tableaux:
+* received.csv (tous les messages, spam compris, sauf les messages envoyés)
+* sent.csv  (messages envoyés)
+
+### 3. 
