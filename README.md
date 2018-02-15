@@ -20,4 +20,10 @@ Le script [1_mbox_reader.ipynb](1_mbox_reader.ipynb) lit les données d’un fic
 * received.csv (tous les messages, spam compris, sauf les messages envoyés)
 * sent.csv  (messages envoyés)
 
-### 3. 
+Il s'agit d'un «notebook» (code mêlé de texte) utilisant le langage Python. Si vous n'avez pas Jupyter Notebook, le logiciel open source Anaconda (licence BSD) permet de l'installer facilement [voir les instructions sur jupyter.org](https://jupyter.org/install).
+
+Les détails sont expliqués dans le script.
+
+### 3. Analyser les données
+
+On est loin de l'échantillon représentatif et de l'analyse scientifique. Mais le script [2_email_rater.ipynb](2_email_rater.ipynb) classe les e-mails et génère une série de résultats. A adapter en fonction de votre méthode de tri.
